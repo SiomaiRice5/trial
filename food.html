@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="foodstyles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Montserrat:wght@400;700&display=swap">
+    <title>Delicious Eats</title>
+</head>
+<body>
+    <header class="header">
+      <div class=".menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <h1>Delicious Eats</h1>
+      <nav class="mobile-menu">
+        <div class=".close-icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+<br>
+<br>
+<!-- Main Content Section -->
+<main>
+    <!-- Home Section -->
+    <section id="home">
+        <h2> Welcome to Delicious Eats </h2>
+        <br>
+        <p> Discover a world of flavors and indulge in the finest culinary experiences. </p>
+        <a href="#menu" class="cta-button"><center>Explore Menu</center></a>
+    </section>
+<br>
+<br>
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="container">
+          <div class="menu-item">
+              <img src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMDI4ODAzMg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Dish 1">
+              <h3>Special Pasta Delight</h3>
+              <p>Delicious pasta with a rich and flavorful sauce.</p>
+          </div>
+          <div class="menu-item">
+              <img src="https://images.unsplash.com/photo-1650964807311-970cb88d347c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMDM3MTcyNw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Dish 2">
+              <h3>Savory Seafood Platter</h3>
+              <p>Fresh seafood selection served with savory sides.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="container">
+          <div class="recipe">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMDM3MjAyMg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Recipe 1">
+              <h3>Homemade Pizza</h3>
+              <p>Learn how to make the perfect homemade pizza with our step-by-step recipe.</p>
+          </div>
+          <div class="recipe">
+              <img src="https://plus.unsplash.com/premium_photo-1666662657930-7c3c39a12062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMDM3MjExMw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Recipe 2">
+              <h3>Chocolate Bliss Cake</h3>
+              <p>Indulge in the richness of our chocolate bliss cake recipe.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="container">
+          <div class="blog-post">
+              <img src="https://images.unsplash.com/photo-1520588687615-86e74a630bab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMDM3MjMwNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Blog Post 1">
+              <h3>Exploring Unique Flavors</h3>
+              <p>Discover the unique and exotic flavors from around the world.</p>
+              <a href="#read-more">Read More</a>
+          </div>
+          <div class="blog-post">
+              <img src="https://images.unsplash.com/photo-1542356714-e9158d92487e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMDM3NDMxNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Blog Post 2">
+              <h3>Culinary Adventures</h3>
+              <p>Embark on culinary adventures with our latest blog post.</p>
+              <a href="#read-more">Read More</a>
+          </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer id="contact">
+    <p> Delicious Eats 2023 </p>
+</footer>
+
+<!-- JavaScript for additional functionality -->
+<script src="foodscript.js"></script>
+</body>
+</html>
